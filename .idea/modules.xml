@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/javaframe.iml" filepath="$PROJECT_DIR$/javaframe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javamybatis/javamybatis.iml" filepath="$PROJECT_DIR$/javamybatis/javamybatis.iml" />
     </modules>
   </component>
 </project>
