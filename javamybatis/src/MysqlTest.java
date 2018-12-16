@@ -1,0 +1,26 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class MysqlTest {
+    public static void main( String[] args ) {
+        try{
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            //2.连接到数据"库"上去
+            Connection conn= DriverManager.getConnection("jdbc:mysql://10.255.255.224:3306/mysql?characterEncoding=utf-8", "root", "123");
+            //3.构建SQL命令
+            Statement stmt=conn.createStatement();
+            stmt.execute("use mysql");
+            try (ResultSet rs = stmt.executeQuery("SELECT  * from user")) {
+                //position result to first
+                rs.first();
+                System.out.println(rs.getString(2)); //result is "Hello World!"
+            }
+
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+}
