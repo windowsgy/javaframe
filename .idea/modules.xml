@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/javaframe.iml" filepath="$PROJECT_DIR$/javaframe.iml" />
       <module fileurl="file://$PROJECT_DIR$/javamybatis/javamybatis.iml" filepath="$PROJECT_DIR$/javamybatis/javamybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc/sc.iml" filepath="$PROJECT_DIR$/sc/sc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sp/sp.iml" filepath="$PROJECT_DIR$/sp/sp.iml" />
     </modules>
   </component>
 </project>

@@ -4,6 +4,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/javamybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/sp/pom.xml" />
+        <option value="$PROJECT_DIR$/sc/pom.xml" />
       </list>
     </option>
   </component>
